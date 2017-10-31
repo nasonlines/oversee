@@ -7,7 +7,7 @@ install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
   # install modules
-  - cmd: npm install node-gyp-install
+  - cmd: npm install node-gyp-install -msvs_version=2013
   - cmd: npm install
 
 # Post-install test scripts.
