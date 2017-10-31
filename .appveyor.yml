@@ -1,3 +1,5 @@
+os: Visual Studio 2015
+
 # Test against the latest version of this Node.js version
 environment:
   nodejs_version: "8"
@@ -7,8 +9,8 @@ install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
   # install modules
-  - cmd: npm install node-gyp-install -msvs_version=2013
-  - cmd: npm install
+  - npm install node-pre-gyp
+  - npm install
 
 # Post-install test scripts.
 test_script:
