@@ -1,0 +1,29 @@
+{
+  "name": "oversee",
+  "version": "0.0.1",
+  "description": "Watch and scan directories in continue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasonlines/oversee.git"
+  },
+  "author": "NasOnlines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasonlines/oversee/issues"
+  },
+  "homepage": "https://github.com/nasonlines/oversee#readme",
+  "dependencies": {
+    "better-sqlite3": "^4.0.3",
+    "chai": "^4.1.2",
+    "faker": "^4.1.0",
+    "js-base64": "^2.3.2",
+    "node-gyp-install": "^2.2.0",
+    "request": "^2.83.0",
+    "sqlite3": "^3.1.13",
+    "tracer": "^0.8.11"
+  }
+}
